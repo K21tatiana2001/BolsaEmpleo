@@ -1,0 +1,4 @@
+2023-10-01 22:47:17.345544-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ASPIRANTES" ya existe
+Table "ASPIRANTES" already exists; SQL statement:
+CREATE TABLE `Aspirantes` (`cedula` VARCHAR(255) , `nombreCompleto` VARCHAR(255) , `edad` INTEGER , `experienciaAnios` INTEGER , `profesion` VARCHAR(255) , `telefono` VARCHAR(255) , PRIMARY KEY (`cedula`) ) [42101-224]
